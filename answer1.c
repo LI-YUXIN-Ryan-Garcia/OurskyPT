@@ -1,13 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<string.h>
 // a1, a2 are array1 and array2 respectively
-int isSubset( int*a1, int*a2){
-    // keep a1 longer than a2
-    if( strlen(a1) < strlen(a2) ){
-        int* tmp = a1;
-        a1 = a2;
-        a2 = tmp;
-    }
+int isSubset( char*a1, char*a2){
+    printf("%d %d\n",strlen(a1), strlen(a2));
     // brute force
     int i = 0, j = 0;// i, j are index of a1, a2 respectively
     int isFind = 0; // 1 for a char in a2 is in a1
@@ -35,3 +31,4 @@ int isSubset( int*a1, int*a2){
     else
         return 0; // represent for false in C    
 }
+

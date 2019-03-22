@@ -1,0 +1,3 @@
+	I think my time  complexity is O(n^2). Because I have two loops in my algorithm, a external loop 
+for array2 and an internal loop for array1, time complexity of each loop is O(n), then the total
+time complexity is O(n) * O(n).

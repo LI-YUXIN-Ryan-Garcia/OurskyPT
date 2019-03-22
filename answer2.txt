@@ -1,3 +1,4 @@
 	I think my time  complexity is O(n^2). Because I have two loops in my algorithm, a external loop 
-for array2 and an internal loop for array1, time complexity of each loop is O(n), then the total
-time complexity is O(n) * O(n).
+for array2 and an internal loop for array1, time complexity of each loop is O(n) in both the worst case and
+the average case, actually, if the length of array1 and array2 are n, m respectively, the time complexity 
+will be O(n) * O(m), then the total time complexity is O(n) * O(n).
